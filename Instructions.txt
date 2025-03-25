@@ -1,0 +1,12 @@
+- Search "Anaconda Download" on Google and download it
+- Click on the download once it is finished
+- Check all boxes for "Advanced Installation Options" (Especially PATH)
+- Once it is done installing, open "Anaconda Prompt" and create a virtual environment by typing "conda create -n your_env_name python=3.9"
+- Activate virtual environment by typing "conda activate your_env_name"
+- Install PyTorch by typing "conda install pytorch torchvision torchaudio cpuonly -c pytorch"
+- Install "ipykernel" by typing "conda install -n your_env_name ipykernel --update-deps --force-reinstall"
+- Register the Kernel by typing "python -m ipykernel install --user --name=your_env_name"
+- Open VSCode with the environment setup by typing "code ."
+- In VSCode, download the "Jupyter" and "Python" extensions in the extensions tab
+- Create a Jupyter Notebook in VSCode by opening the command palette (Ctrl + Shift + P) and typing "Create Jupyter Notebook"
+- Select the Kernel you created by clicking at the top right where it might say "miniforge3" and selecting "your_env_name" (Jupyter Kernel)
